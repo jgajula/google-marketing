@@ -1,0 +1,328 @@
+
+main, article, aside, canvas, figure, figure img, figcaption, hgroup, footer, header, nav, section, audio, video  {
+    display: block;
+    text-align: justify;
+}
+#container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+main {
+    margin: auto;
+    width: 1000px;
+}
+
+.content .abox figure a:hover {
+    -moz-border-radius:19px;
+    -webkit-border-radius:19px;
+    border-radius:19px;
+    -moz-box-shadow:0px 0px 11px #000000;
+    -webkit-box-shadow:0px 0px 11px #000000;
+    box-shadow:0px 0px 11px #000000;
+    opacity: 0.5;
+    -moz-transition: all 400ms linear 0s;
+	
+}
+
+#logo {
+	float: left;
+	width: 350px;
+	position: relative;
+	text-align: right;
+	text-indent: 1em;
+}
+.content section {
+	width: 940px;
+	position: relative;
+	float: left;
+	text-align: center;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+.content middle {
+	width: 1100px;
+	position: relative;
+	margin: auto;
+	padding-top: 1em;
+	padding-bottom: 6em;
+	text-align: left;
+}
+
+middle {
+	margin: auto;
+	float: left;
+	width: 1000px;
+
+}
+
+
+#logo b {
+	text-align: right;
+	text-shadow: 1px 1px 1px #000000;
+	color: #58A5C7;
+	font-size: 18px;
+}
+
+
+#logo a {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.content {
+    float: left;
+    padding-left: 100px;
+}
+
+#productDescription{
+    float: left;
+    width: 200px;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+#productDescription p{
+    display: none;
+}
+
+@font-face {
+    font-family: 'WebSymbolsRegular';
+    src: url('websymbols/websymbols-regular-webfont.eot');
+    src: url('websymbols/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('websymbols/websymbols-regular-webfont.woff') format('woff'),
+        url('websymbols/websymbols-regular-webfont.ttf') format('truetype'),
+        url('websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.ca-menu{
+    padding:0;
+    margin:20px auto;
+    width: 1020px;
+}
+.ca-menu li{
+    width: 230px;
+    height: 230px;
+    border: 10px solid #f6f6f6;
+    overflow: hidden;
+    position: relative;
+    float:left;
+    background: #fff;
+    margin-right: 4px;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+.ca-menu li:last-child{
+    margin-right: 0px;
+}
+.ca-menu li a{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #333;
+    position: relative;
+-moz-box-shadow:0px 0px 3px #000000;
+-webkit-box-shadow:0px 0px 3px #000000;
+box-shadow:0px 0px 3px #000000;
+
+}
+.ca-icon{
+    font-family: 'WebSymbolsRegular', cursive;
+    font-size: 40px;
+    color: #f6f6f6;;
+    line-height: 60px;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 30px;
+    text-align: center;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+.ca-main{
+    font-size: 24px;
+    position: absolute;
+    top: 110px;
+    height: 80px;
+    width: 170px;
+    left: 50%;
+    margin-left: -85px;
+    opacity: 0.8;
+    text-align: center;
+}
+.ca-sub{
+    text-align:center;
+    color: #000;
+    font-size: 26px;
+    position: absolute;
+    height: 80px;
+    width: 170px;
+    left: 50%;
+    margin-left: -85px;
+    top: 110px;
+    opacity: 0;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+.ca-menu li:hover {
+    background: #f7f7f7;
+    border-color: #fff;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    box-shadow: 0 45px 60px -50px #000000;
+}
+.ca-menu li:hover .ca-icon{
+    color: #555;
+    font-size: 60px;
+}
+.ca-menu li:hover .ca-main{
+    display: none;
+}
+.ca-menu li:hover .ca-sub{
+    opacity: 0.8;
+}
+
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0px;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+
+fieldset,img { 
+	border:0;
+}
+
+
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+
+
+body{
+	color: #333;
+	font-family: 'Terminal Dosis', Arial, sans-serif;
+	font-size: 13px;
+	width: 100%;
+}
+.container{
+	position:relative;
+}
+
+
+.content{
+	width: 1100px;
+	margin: auto;
+}
+h1{
+	margin:0px;
+	padding:10px;
+	font-size:32px;
+	color:#000;
+	text-shadow:1px 1px 1px rgba(255,255,0.9);
+	text-align:left;
+	font-weight:400;
+}
+h1 span{
+    display:block;
+	font-size:14px;
+	color:#666;
+    font-style:italic;
+    font-family:Georgia, serif;
+	padding-top:5px;
+}
+
+
+
+.title-icon {
+    font-family: 'WebSymbolsRegular', cursive;
+    font-size: 80px;
+    color: #F6F6F6;
+    line-height: 60px;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 30px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 60px;
+    line-height: 100px;
+}
+
+#searchLinkDescription .title-icon{
+    color: #3364C2;
+}
+
+#imagesLinkDescription .title-icon{
+    color: #f31900;
+}
+
+#newsLinkDescription .title-icon{
+    color: #f7d72b;
+}
+
+#groupsLinkDescription .title-icon{
+    color: #3364c2;
+}
+
+#toolbarLinkDescription .title-icon{
+    color: #44c400;
+}
+
+#pSearchLinkDescription .title-icon{
+    color: #f31900;
+}
+
+#luckyLinkDescription .title-icon{
+    color: #3364C2;
+}
+
+#moreLinkDescription .title-icon{
+    color: #f7d72b;
+}
+
+.descriptionText{
+    line-height: 22px;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1500px;
+}
