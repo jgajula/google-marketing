@@ -6,4 +6,5 @@
             $('#'+hideable).fadeIn();
             return false;
         });
+       imgToCanvas();
     });
